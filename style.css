@@ -2,8 +2,8 @@
 
 body {
   font: normal normal 13px/15px
- "Source Sans Pro";
- background: linear-gradient(to right, #e1e0ff, #d7fadd);
+  "Source Sans Pro";
+  background: linear-gradient(to right, #e1e0ff, #d7fadd);
 }
 
 .container{
@@ -30,8 +30,8 @@ body {
     margin-top:2px;
     padding: 5px 15px;
     border-radius: 50%;
-   box-shadow: 0 0 10px #504bff, 0 0 20px #504bff, 0 0 30px #504bff;
-   transition: all 0.5s ease;
+    box-shadow: 0 0 10px #504bff, 0 0 20px #504bff, 0 0 30px #504bff;
+    transition: all 0.5s ease;
   }
 
   #button:hover{
