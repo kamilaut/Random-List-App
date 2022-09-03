@@ -54,7 +54,7 @@ body {
       display: none;
     }
 
-    li > Button {
+    li > button {
       background: none;
       border: none;
       float: right;
