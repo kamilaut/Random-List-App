@@ -1,10 +1,9 @@
-
-@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900);
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap);
 
 body {
-  font: ExtraLight 200
- "Source Sans Pro", sans-serif;
-  background: #dfdfdf;
+  font: normal normal 13px/15px
+ "Source Sans Pro";
+ background: linear-gradient(to right, #e1e0ff, #d7fadd);
 }
 
 .container{
@@ -25,12 +24,14 @@ body {
 
   #button{
     display: inline-block;
-    background-color:#fc999b;
-    color:#ffffff;
-    border-radius: 5px;
+    background-color: none;
+    color: black;
     text-align:center;
     margin-top:2px;
     padding: 5px 15px;
+    border-radius: 50%;
+   box-shadow: 0 0 10px #504bff, 0 0 20px #504bff, 0 0 30px #504bff;
+   transition: all 0.5s ease;
   }
 
   #button:hover{
@@ -57,6 +58,6 @@ body {
       background: none;
       border: none;
       float: right;
-      color: #025f70;
+      color: #504bff;
       font-weight: 800;
     }
