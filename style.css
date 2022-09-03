@@ -54,7 +54,7 @@ body {
       display: none;
     }
 
-    li > crossOutButton {
+    li > Button {
       background: none;
       border: none;
       float: right;
