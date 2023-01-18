@@ -1,4 +1,5 @@
 # Random-List-App
+jQuery project
 ## Intro
 A small listing app.
 
